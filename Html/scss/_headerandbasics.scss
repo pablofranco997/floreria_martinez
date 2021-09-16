@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: orchid;
+    padding: 2em;
+    padding-top: 0.5em;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  
+    li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+  }
+  
+  header li {
+    display: inline-block;
+  }
+  
+  .logo {
+    line-height: 0.91;
+    letter-spacing: 0.35em;
+    font-family: 'Forum', cursive;
+    font-size: 47.125px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    float: left;
+  }
+  
+  /*Empieza buscador*/
+  
+  .container {
+    width: 40px;
+    position: relative;
+  
+    .lupa {
+      position: absolute;
+      margin-top: 11px;
+      margin-right: auto;
+      color: #FFF;
+      -webkit-transition: .3s ease-out;
+      transition: 0.3s ease-out;
+    }
+  }
+  
+  #search {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: purple;
+    border: none;
+    font-size: .9em;
+    float: right;
+    padding-left: 27px;
+    padding-right: 27px;
+    -webkit-transition: .6s ease-out;
+    transition: 0.6s ease-out;
+  
+    &:active, &:focus {
+      outline: 0;
+      width: 40px;
+      padding-right: 120%;
+    }
+  }
+  
+  .container:hover {
+    #search {
+      width: 300px;
+      background-color: #ffffff;
+    }
+  
+    .lupa {
+      color: orchid;
+    }
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgba(218, 112, 214, 0.445);
+  }
+  
+  ::-moz-placeholder {
+    color: orchid;
+  }
+  
+  :-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  /*termina buscador*/
+  
+  .cart {
+    width: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .text-description {
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    font-size: 20px;
+    color: orchid;
+  }
+  
+  h3 {
+    color: rgb(241, 77, 77);
+    text-align: center;
+  }
+  
+  h4 {
+    color: slateblue;
+  }
+  
+  h5 {
+    color: slateblue;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista {
+    float: right;
+  }

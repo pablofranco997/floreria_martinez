@@ -1,0 +1,48 @@
+/*form*/
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 100px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  form li + li {
+    margin-top: 20px;
+  }
+  
+  .formulario .producto {
+    width: 150px;
+    display: inline-block;
+  }
+  
+  label {
+    display: inline-block;
+    text-align: right;
+  }
+  
+  input, textarea {
+    box-sizing: content-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+  }
+  
+  .textarea {
+    vertical-align: bottom;
+    height: 2em;
+    width: 300px;
+  }
+  
+  .textarea-2 {
+    vertical-align: bottom;
+    height: 6em;
+    width: 300px;
+  }
+  
+  /*form end*/
